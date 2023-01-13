@@ -1,0 +1,27 @@
+
+.ProgressbarContainer {
+    background: var(--breadcrumbs-background);
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+
+    .Line {
+        flex-grow: 1;
+        height: 2px;
+        border: 2px solid var(--primary-base-color);
+    }
+
+    .Steps {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+
+        .Step {
+            padding: 0 10px;
+        }
+    }
+
+    
+}
+    
